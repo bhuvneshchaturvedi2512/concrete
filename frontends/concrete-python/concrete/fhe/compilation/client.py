@@ -129,7 +129,7 @@ class Client:
             Optional[Union[Value, Tuple[Optional[Value], ...]]]:
                 encrypted argument(s) for evaluation
         """
-
+        print("I am inside concrete/frontends/concrete-python/concrete/fhe/compilation/client.py at line 132")
         ordered_sanitized_args = validate_input_args(self.specs, *args)
 
         self.keygen(force=False)
